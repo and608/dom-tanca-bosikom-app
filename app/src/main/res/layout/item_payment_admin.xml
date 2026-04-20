@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textChildName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ребёнок"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/textParentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Родитель"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дата рождения"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Месяц"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статус"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

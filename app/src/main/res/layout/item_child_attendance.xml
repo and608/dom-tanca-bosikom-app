@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Чекбокс -->
+    <CheckBox
+        android:id="@+id/checkBoxPresent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"/>
+
+    <!-- Имя ребёнка -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewChildName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Иванов Иван"
+            android:textSize="16sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textViewBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15.05.2018"
+            android:textSize="12sp"
+            android:textColor="#999999"/>
+
+    </LinearLayout>
+
+    <!-- Кнопка примечания -->
+    <ImageButton
+        android:id="@+id/buttonNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Добавить примечание"/>
+
+</LinearLayout>

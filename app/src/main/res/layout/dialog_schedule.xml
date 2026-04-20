@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="День недели:"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <Spinner
+        android:id="@+id/spinnerDayOfWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Время начала:"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/editTextStartTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="16:00"
+        android:inputType="time"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Время окончания:"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/editTextEndTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="17:00"
+        android:inputType="time"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кабинет:"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <EditText
+        android:id="@+id/editTextRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Номер кабинета"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#F5F5F5">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:padding="24dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Регистрация"
+			android:textSize="24sp"
+			android:textStyle="bold"
+			android:textColor="#222222"
+			android:layout_marginBottom="24dp" />
+
+		<EditText
+			android:id="@+id/editTextName"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="ФИО"
+			android:background="#FFFFFF"
+			android:padding="12dp" />
+
+		<EditText
+			android:id="@+id/editTextPhone"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Телефон"
+			android:inputType="phone"
+			android:background="#FFFFFF"
+			android:padding="12dp"
+			android:layout_marginTop="12dp" />
+
+		<EditText
+			android:id="@+id/editTextEmail"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Email"
+			android:inputType="textEmailAddress"
+			android:background="#FFFFFF"
+			android:padding="12dp"
+			android:layout_marginTop="12dp" />
+
+		<EditText
+			android:id="@+id/editTextPassword"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="Пароль"
+			android:inputType="textPassword"
+			android:background="#FFFFFF"
+			android:padding="12dp"
+			android:layout_marginTop="12dp" />
+
+		<RadioGroup
+			android:id="@+id/radioGroupRole"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp">
+
+			<RadioButton
+				android:id="@+id/radioTeacher"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Преподаватель" />
+
+			<RadioButton
+				android:id="@+id/radioParent"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Родитель" />
+		</RadioGroup>
+
+		<Button
+			android:id="@+id/buttonRegister"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Зарегистрироваться"
+			android:layout_marginTop="20dp" />
+
+		<TextView
+			android:id="@+id/textViewGoToLogin"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Уже есть аккаунт? Войти"
+			android:textColor="#1976D2"
+			android:layout_marginTop="16dp" />
+	</LinearLayout>
+</ScrollView>

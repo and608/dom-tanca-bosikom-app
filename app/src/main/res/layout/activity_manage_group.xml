@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Заголовок -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Управление группой"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6750A4"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Выбор группы -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Группа"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="4dp" />
+
+    <Spinner
+        android:id="@+id/spinnerGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCurrentTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Преподаватель: не назначен"
+        android:textSize="16sp"
+        android:paddingTop="8dp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spinnerTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonAssignTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назначить преподавателя"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonCreateGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Создать группу"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonOpenGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Открыть группу"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonGroupAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Посещаемость группы"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonGroupStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Статистика группы"
+        android:layout_marginTop="8dp"
+        android:visibility="gone" />
+
+    <!-- Статистика -->
+    <TextView
+        android:id="@+id/textViewStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Детей в группе: 0"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Дети в группе -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дети в группе"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/listViewChildrenInGroup"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Разделитель -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Дети без группы -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дети без группы (для добавления)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/listViewChildrenWithoutGroup"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:divider="@null" />
+
+    <!-- Кнопка назад -->
+    <Button
+        android:id="@+id/buttonBack"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Назад"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

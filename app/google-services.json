@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663814894794",
+    "project_id": "dom-tantsa-bosikom",
+    "storage_bucket": "dom-tantsa-bosikom.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663814894794:android:c86d1c3f42e1779c987033",
+        "android_client_info": {
+          "package_name": "com.bosikom.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYlW6c8lzapYlonN7LgI919lR6QzxpPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663814894794:android:d22892a4e1004e0d987033",
+        "android_client_info": {
+          "package_name": "com.example.dom_tantsa_bosikom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYlW6c8lzapYlonN7LgI919lR6QzxpPNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

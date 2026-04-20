@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textChildName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Имя ребёнка"
+        android:textStyle="bold"
+        android:textColor="#222222" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAttendance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/radioPresent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Был" />
+
+        <RadioButton
+            android:id="@+id/radioAbsent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Не был"
+            android:layout_marginStart="16dp" />
+
+        <RadioButton
+            android:id="@+id/radioSick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Болел"
+            android:layout_marginStart="16dp" />
+    </RadioGroup>
+
+</LinearLayout>

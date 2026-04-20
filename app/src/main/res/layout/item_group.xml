@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Название группы"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/textGroupInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Возраст: 5-7 • Пн/Ср 18:00"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="6dp" />
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_screen_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvGroupName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Группа"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="#222222"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tvTeacherName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Преподаватель: "
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Возраст: "
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvSchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Расписание: "
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание: "
+                android:textSize="16sp"
+                android:textColor="#444444"
+                android:layout_marginBottom="24dp" />
+
+            <Button
+                android:id="@+id/buttonEditGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Редактировать группу"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonDeleteGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Удалить группу"
+                android:textAllCaps="false"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/buttonGroupChildren"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Открыть список детей"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonGroupSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Открыть расписание"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonGroupAttendance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Открыть посещаемость"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/buttonGroupStatistics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Открыть статистику"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

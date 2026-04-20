@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textChildName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Имя ребёнка"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#212121" />
+
+    <TextView
+        android:id="@+id/textGroupName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Группа: ..."
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textTeacherName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Преподаватель: ..."
+        android:textSize="16sp"
+        android:textColor="#424242"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textSchedule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Расписание: ..."
+        android:textSize="16sp"
+        android:textColor="#1976D2"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

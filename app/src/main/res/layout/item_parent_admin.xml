@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/textParentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Имя родителя"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#222222" />
+
+    <TextView
+        android:id="@+id/textParentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email@example.com"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/textParentPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+7..."
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/textParentChildren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дети: нет"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonDeleteParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удалить"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

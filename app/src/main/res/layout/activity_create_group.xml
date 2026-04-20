@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/view_screen_header" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/editTextGroupName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Название группы"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/editTextAge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Возраст, например 5-7"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/editTextSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Расписание, например Пн/Ср 18:00"
+                android:layout_marginBottom="12dp" />
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Описание группы"
+                android:minLines="3"
+                android:gravity="top"
+                android:layout_marginBottom="20dp" />
+
+            <Button
+                android:id="@+id/buttonSaveGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сохранить группу"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

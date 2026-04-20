@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="16dp">
+
+	<!-- Заголовок -->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Кабинет родителя"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		android:textColor="#6750A4"
+		android:layout_marginBottom="16dp"/>
+
+	<!-- Информация о пользователе -->
+	<TextView
+		android:id="@+id/textViewUserInfo"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Загрузка..."
+		android:textSize="14sp"
+		android:padding="12dp"
+		android:background="#F5F5F5"
+		android:layout_marginBottom="16dp"/>
+
+	<!-- Заголовок списка детей -->
+	<TextView
+		android:id="@+id/textViewChildrenTitle"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Мои дети"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		android:layout_marginBottom="8dp"/>
+
+	<!-- Список детей -->
+	<ListView
+		android:id="@+id/listViewChildren"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:divider="@null"/>
+
+	<!-- Кнопки -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginTop="16dp">
+
+		<Button
+			android:id="@+id/buttonAddChild"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Добавить ребёнка"
+			android:layout_marginBottom="8dp"/>
+
+		<Button
+			android:id="@+id/buttonAttendance"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Посещаемость детей"
+			style="@style/Widget.Material3.Button.TonalButton"
+			android:layout_marginBottom="8dp"/>
+
+		<Button
+			android:id="@+id/buttonLogout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Выйти"
+			style="@style/Widget.Material3.Button.OutlinedButton"/>
+
+	</LinearLayout>
+
+</LinearLayout>
